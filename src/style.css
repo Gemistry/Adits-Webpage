@@ -1,0 +1,21 @@
+@import 'https://rsms.me/inter/inter.css';
+body {
+  font-family: Inter;
+}
+.username{
+text-decoration: underline;
+
+}
+
+.image {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    height: 200px;
+    border: 2px solid #00A3E1;
+}
+
+.body_text {
+    width: 700px;
+}
