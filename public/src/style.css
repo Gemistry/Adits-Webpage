@@ -13,9 +13,13 @@ text-decoration: underline;
     float: left;
     margin-right: 10px;
     height: 200px;
-    border: 2px solid #00A3E1;
+    border: 3px solid #59b9df;
 }
 
 .body_text {
     width: 700px;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+    margin-left: 210px;
+    width: 550px;
 }
