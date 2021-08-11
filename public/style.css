@@ -1,12 +1,19 @@
 @import 'https://rsms.me/inter/inter.css';
 body {
   font-family: Inter;
+  background-color: #23272a;
+
 }
 
 .username{
 text-decoration: underline;
-color: black;
+color: #F6F6F6;
 
+}
+
+.header{
+  color: #F6F6F6; 
+  text-align: center;
 }
 
 .profile_image {
@@ -24,4 +31,5 @@ color: black;
     border-radius: 5px;
     margin-left: 210px;
     width: 550px;
+    color: #F6F6F6;
 }
