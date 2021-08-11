@@ -2,8 +2,9 @@
 body {
   font-family: Inter;
 }
+
 .username{
-text-decoration: none;
+text-decoration: underline;
 color: black;
 
 }
