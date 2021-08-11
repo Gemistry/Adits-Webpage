@@ -3,7 +3,8 @@ body {
   font-family: Inter;
 }
 .username{
-text-decoration: underline;
+text-decoration: none;
+color: black;
 
 }
 
