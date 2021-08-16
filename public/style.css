@@ -45,24 +45,22 @@ color: #F8F7FF;
   font-size: medium;
 }
 
-.child-header {
-
-}
+// grid children
 
 .child-navbar {
-grid-row: top / top-mid ;
-grid-column: left-mid / right-mid;
+  grid-row: top / top-mid ;
+  grid-column: left-mid / right-mid;
 }
 
 .child-image {
 
 }
 
-.child-username {
-
+.child-blurb {
+  grid-row: top-mid / bottom-mid ;
+  grid-column: left-mid / mid ;
 }
 
-.child-blurb {
-grid-row: top-mid / bottom-mid ;
-grid-column: left-mid / mid ;
+.child-icons {
+
 }
