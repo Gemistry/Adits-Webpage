@@ -2,8 +2,11 @@
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  background-color: #333333;
+  background-color: #272727;
   color: #F8F7FF;
+  display: grid;
+  grid-template-columns: [left] 5% [left-mid] 45% [mid] 45% [right-mid] 5% [right];
+  grid-template-rows: [top] auto [top-mid] auto [bottom-mid] auto [bottom];
 }
 
 .username{
@@ -28,9 +31,38 @@ color: #F8F7FF;
     
 }
 
-.body_text {  
+.blurb {  
     margin-left: 210px;
     width: 500px;
     border-left: cornflowerblue;
 }
 
+.navbar {
+  text-align: center;
+  color: #F8F7FF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.child-header {
+
+}
+
+.child-navbar {
+grid-row: top / top-mid ;
+grid-column: left-mid / right-mid;
+}
+
+.child-image {
+
+}
+
+.child-username {
+
+}
+
+.child-blurb {
+grid-row: top-mid / bottom-mid ;
+grid-column: left-mid / mid ;
+}
