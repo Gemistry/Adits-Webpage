@@ -53,7 +53,8 @@ color: #F8F7FF;
 }
 
 .child-image {
-
+grid-row: top-mid / bottom ;
+grid-column: mid / right-mid;
 }
 
 .child-blurb {
@@ -62,5 +63,6 @@ color: #F8F7FF;
 }
 
 .child-icons {
-
+grid-row: bottom-mid / bottom;
+grid-column: left-mid / mid;
 }
