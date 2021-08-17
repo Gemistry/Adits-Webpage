@@ -35,6 +35,12 @@ body {
   font-size: medium;
 }
 
+.icon {
+  color: #89b0ae;
+  height: 48px;
+  width: auto;
+}
+
 
 // grid children
 
