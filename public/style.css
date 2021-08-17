@@ -10,31 +10,27 @@ body {
 }
 
 .username{
-text-decoration: underline;
-color: #F8F7FF;
-
+  text-decoration: underline;
+  color: #F8F7FF;
 }
 
-.header{
+.header {
   text-align: center;
   font-weight: 700;
 }
 
 .profile_image {
-    width: 200px;
-    border-radius: 100px;
-    float: left;
-    margin-right: 10px;
-    height: 200px;
-    border: 3px;
-    border-color: #F8F7FF;
+  max-width: 100%;
+  
+  border-radius: 100px;
+  // height: 100%;
+  border: 3px;
+  border-color: #F8F7FF;
     
 }
 
 .blurb {  
-    margin-left: 210px;
-    width: 500px;
-    border-left: cornflowerblue;
+  border-left: cornflowerblue;
 }
 
 .navbar {
