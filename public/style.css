@@ -2,18 +2,19 @@
 :root {
   --bg: #272727;
   --bg-2: #004e64;
-  --accent-1: #c97b84;
-  --accent-2: #e0acd5;
+  --accent-1: #ffc2d1;
+  --accent-2: #ff8fab;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-weight: 400;
   background-color: var(--bg);
   color: #F8F7FF;
   display: grid;
-  grid-template-columns: [left] 5% [left-mid] 45% [mid] 45% [right-mid] 5% [right];
+  grid-template-columns: [left] 5% [left-mid] 55% [mid] 35% [right-mid] 5% [right];
   grid-template-rows: [top] auto [top-mid] auto [bottom-mid] auto [bottom];
+  overflow: hidden;
 }
 
 .username{
@@ -22,15 +23,18 @@ body {
 
 .header {
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .profile_image {
-  max-width: 100%;
+  width: 819px;
+  height: 1011px;
 }
 
 .blurb {  
-  border-left: cornflowerblue;
+  text-align: center;
+  width: 500px;
+  padding-right: 200px;
 }
 
 .navbar {
@@ -43,14 +47,15 @@ body {
 
 .icon {
   color: var(--accent-1);
-  height: 60px;
+  height: 50px;
   width: auto;
   padding-left: 20px;
 }
 
 .icon:hover,
 .icon:active {
-  animation: icon-hover 500ms;
+  animation: icon-hover 800ms;
+  animation-fill-mode: forwards;
 }
 
 @keyframes icon-hover {
